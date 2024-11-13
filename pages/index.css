@@ -122,7 +122,6 @@
   position: relative;
   box-sizing: border-box;
   padding: 100px 80px 215px;
-  display: flex;
   flex-direction: column;
 }
 .recipes__title {
@@ -166,4 +165,24 @@
   line-height: 30px;
   color: white;
   margin-top: 24px;
+}
+.reservation {
+  background-color: #527e56;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background-color: #8fb4cc;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
