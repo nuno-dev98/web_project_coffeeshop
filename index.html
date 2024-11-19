@@ -103,9 +103,11 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma Mesa</h2>
-          <form class="reservation_form">
-            <fieldset class="reservation_form_container">
-              <label for="name" class="reservation__form_label"
+          <form class="reservation__form">
+            <fieldset class="reservation__form reservation__form_container">
+              <label
+                for="name"
+                class="reservation__form reservation__form_label"
                 >Nome: *
                 <input
                   type="text"
@@ -116,7 +118,9 @@
                   required
                 />
               </label>
-              <label for="guest-number" class="reservation__form_label"
+              <label
+                for="guest-number"
+                class="reservation__form reservation__form_label"
                 >Número de convidados: *
                 <input
                   type="number"
@@ -129,7 +133,9 @@
                 />
               </label>
 
-              <label for="datetime" class="reservation__form_label"
+              <label
+                for="datetime"
+                class="reservation__form reservation__form_label"
                 >Data e hora: *
                 <input
                   type="date"
@@ -138,7 +144,9 @@
                   name="datetime"
               /></label>
 
-              <label for="email" class="reservation__form_label"
+              <label
+                for="email"
+                class="reservation__form reservation__form_label"
                 >Seu e-mail: *
                 <input
                   type="email"
@@ -147,14 +155,10 @@
                   name="email"
                   placeholder="email@email.com"
               /></label>
-
-              <button type="submit" class="form__button">
+              <button type="submit" class="reservation__form_button">
                 Reservar uma mesa
               </button>
-              <label
-                for="use-terms"
-                class="reservation__form_label reservation__agreement"
-              >
+              <label for="use-terms" class="reservation__form_label-agreement">
                 <input
                   type="checkbox"
                   name="use-terms"

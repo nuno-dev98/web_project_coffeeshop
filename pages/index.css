@@ -180,11 +180,11 @@
   line-height: 52px;
   margin: 0 auto 80px;
 }
-.reservation_form {
+.reservation__form {
   max-width: 385px;
   margin: 0 auto;
 }
-.reservation_form_container {
+.reservation__form_container {
   margin: 0;
   padding: 0;
   border: none;
@@ -218,7 +218,7 @@
 .reservation__form_item::placeholder {
   line-height: 20px;
 }
-.form__button {
+.reservation__form_button {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -231,7 +231,7 @@
   background-color: #2f80ed;
   color: white;
 }
-.form__button:hover {
+.reservation__form_button:hover {
   opacity: 0.7;
 }
 .reservation__agreement {
