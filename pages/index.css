@@ -169,12 +169,8 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   background-position: center;
-  display: flex;
-  position: relative;
-  box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
   padding: 100px 80px 120px;
+  text-align: center;
 }
 .reservation__title {
   font-family: Inter;
@@ -182,6 +178,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0 auto 80px;
 }
 .reservation_form {
   max-width: 385px;
@@ -216,6 +213,7 @@
   box-sizing: border-box;
   padding: 15px 20px;
   width: 100%;
+  border: 0;
 }
 .reservation__form_item::placeholder {
   line-height: 20px;
@@ -230,6 +228,8 @@
   width: 100%;
   height: 60px;
   margin-bottom: 32px;
+  background-color: #2f80ed;
+  color: white;
 }
 .form__button:hover {
   opacity: 0.7;
@@ -238,7 +238,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  column-gap: 8px;
+  column-gap: 12px;
 }
 .reservation__agreement_item {
   border-radius: 2px;
